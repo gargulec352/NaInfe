@@ -1,13 +1,75 @@
 body{
-
+	background-color: red;
+	margin: 0;
 }
 
 .container{
-
+	height: 10000px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .menu{
+	height: 950px;
+	background-image: url(img/home_bg.jpg);
+	background-position: left;
+}
 
+.header{
+	margin-left: 140px;
+	margin-right: 140px;
+	margin-top: 100px;
+	width: 1000px;
+	height: 100px;
+}
+
+.logo{
+	float: left;
+	font-family: 'Pacifico', cursive;
+	font-size: 48px;
+}
+
+.nav{
+	float: left;
+	margin-left: 100px;
+	font-size: 18px;
+	font-family: arial;
+	text-align: center;
+	height: 100px;
+}
+
+.nav ul{
+	padding-top: 10px;
+}
+
+.nav nav ul li{
+	float: left;
+	list-style-type: none;
+	margin-left: 20px;
+	padding-top: 6px;
+}
+
+
+
+.nav nav ul li:hover{
+	border-top: 4px solid orange;
+}
+
+p{
+	margin-bottom: 10px;
+	font-family: none;
+}
+
+.menu-text{
+	font-family: arial;
+	width: 300px;
+	margin-left: 140px;
+	margin-top: 200px;
+}
+
+.font-size-text{
+	font-size: 18px;
+	padding-bottom: 10px;
 }
 
 .about-us{

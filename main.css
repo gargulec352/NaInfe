@@ -10,7 +10,7 @@ body{
 }
 
 .menu{
-	height: 950px;
+	height: 900px;
 	background-image: url(img/home_bg.jpg);
 	background-position: left;
 }
@@ -74,7 +74,7 @@ p{
 }
 
 .button{
-	background-color: #ff8533;
+	background-color: rgb(255, 96, 51);
 	font-size: 22px;
 	padding: 15px;
 	color: white;
@@ -85,7 +85,30 @@ p{
 }
 
 .about-us{
+	background-color: rgb(40, 172, 167);
+	height: 600px;
+	color: white;
+}
 
+.image{
+	float: left;
+	width: 50%;
+}
+
+.information{
+	float: left;
+	text-align: left;
+	width: 40%;
+	margin-left: 40px;
+	line-height: 1.4
+}
+
+.information p{
+	font-size: 17px;
+}
+
+.ab-header{
+	font-size: 100px;
 }
 
 .our-services{

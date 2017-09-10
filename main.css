@@ -112,11 +112,95 @@ p{
 }
 
 .our-services{
+	height: 800px;
+	background-color: #009fff;
+}
 
+.our-services-buttons{
+	float: left;
+	width: 50%;
+	height: 700px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.bottons-items{
+	width: 300px;
+	height: 100px;
+	background-color: white;
+}
+
+.bottons-items:visited{
+	color: black;
+}
+
+.text-items{
+	width: 75%;
+	height: 65px;
+	float: left;
+	background-color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 35px;
+	margin-left: 40px;
+	border-right: 1px solid grey;
+}
+
+.image-items{
+	width: 15%;
+	height: 75px;
+	float: left;
+	background-color: white;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.our-services-img{
+	float: left;
+	width: 50%;
+	height: 700px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	position: relative;
+}
+
+.our-services-text{
+	font-size: 80px;
+	font-family: arial;
+	color: white;
+	position: absolute;
+	top: 35%;
+	left: 10%;
 }
 
 .gallery{
+	background-color: #ffe92f;
+	height: 2000px;
+}
 
+.gallery-text{
+	text-align: center;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 32px;
+	font-family: arial;
+}
+
+.gallery-text h2{
+	font-size: 80px;
+	margin: 0;
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+
+.gallery-text p{
+	font-size: 18px;
+}
+
+.gallery-images{
+	margin-left: 70px;
 }
 
 .subscribe{

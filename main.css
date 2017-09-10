@@ -255,15 +255,52 @@ p{
 
 .sub-header{
 	margin-left: 60px;
-	font-size: 40px;
 }
 
 .header-text{
 	padding-top: 100px;
+	font-size: 40px;
+}
+
+.sub-text{
+	width: 450px;
+	font-size: 18px;
+}
+
+.input-email{
+	margin-right: 24px;
+	width: 50%;
+	height: 50px;
+	outline: 0;
+	border: 1px solid black;
+	font-size: 18px;
+}
+
+.sub-button{
+	background-color: #97ba2c;
+	height: 54px;
+	font-size: 18px;
+	padding: 0 5px;
+	color: white;
+	border: none;
+}
+
+.sub-button:hover{
+	cursor: pointer;
 }
 
 .blog{
+	background-color: #b07cf8;
+	color: white;
+	text-align: center;
+	height: 750px;
+}
 
+.blog-text{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 17px;
 }
 
 .contact{

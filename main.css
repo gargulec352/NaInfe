@@ -176,7 +176,8 @@ p{
 
 .gallery{
 	background-color: #ffe92f;
-	height: 2000px;
+	height: 1550px;
+	position: relative;
 }
 
 .gallery-text{
@@ -199,12 +200,66 @@ p{
 	font-size: 18px;
 }
 
-.gallery-images{
-	margin-left: 70px;
+.gallery-images{}
+
+.row{}
+
+.row2{
+	padding-top: 30px;
+	padding-left: 10px;
+}
+
+.gall1{
+	float: left;
+}
+.gall2{
+	position: absolute;
+	left: 65%;
+	height: 547px;
+	padding-top: 3px;
+
+}
+
+.gall3{
+	float: left;
+}
+
+.gall4{
+	float: left;
+	padding-left: 45px;
+}
+
+.gallery-button{
+	width: 200px;
+	height: 60px;
+	background-color: #3d2eef;
+	color: white;
+	text-align: center;
+	margin: 60px auto;
+	display: block;
+	font-size: 24px;
+	line-height: 57.5px;
+	text-decoration: none;
+}
+
+.gallery-button:hover{
+	background-color: #2c1dde;
 }
 
 .subscribe{
+	background-image: url(img/subscribe-bg.png);
+	background-position: center;
+	height: 500px;
+	position: relative;
+}
 
+.sub-header{
+	margin-left: 60px;
+	font-size: 40px;
+}
+
+.header-text{
+	padding-top: 100px;
 }
 
 .blog{

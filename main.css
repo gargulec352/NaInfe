@@ -270,15 +270,15 @@ p{
 .input-email{
 	margin-right: 24px;
 	width: 50%;
-	height: 50px;
 	outline: 0;
 	border: 1px solid black;
 	font-size: 18px;
+	padding: 14px 12px;
 }
 
 .sub-button{
 	background-color: #97ba2c;
-	height: 54px;
+	height: 51px;
 	font-size: 18px;
 	padding: 0 5px;
 	color: white;
@@ -303,8 +303,31 @@ p{
 	font-size: 17px;
 }
 
-.contact{
+.blog-images{
+	margin-top: 20px;
 
+}
+
+.blog-button{
+	width: 200px;
+	height: 60px;
+	background-color: #e7192b;
+	color: white;
+	text-align: center;
+	margin: 60px auto;
+	display: block;
+	font-size: 24px;
+	line-height: 57.5px;
+	text-decoration: none;
+}
+
+.blog-button:hover{
+	background-color: #f82b3c;
+}
+
+.contact{
+	background-image: url(img/contact-bg.jpg);
+	height: 866px;
 }
 
 .footer{
